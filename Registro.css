@@ -1,0 +1,75 @@
+body {
+    background-color: #2fcdcd;
+    display: flex; /*el contenido se centra en ambas direcciones*/
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.IniciarSesion {
+    background-color: white;
+    width: 20rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.input {
+    margin: 1.5rem 0; /*afecta a los lados y el margin del centro*/
+
+}
+.input input {
+    border-color: 1rem solid black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.iniciar {
+    background-color: #f1c40f;
+    color: black;
+    border: none;
+    padding: 3%;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registro {
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.registro a { /* afecta a los elementos A (enlaces)*/
+    text-decoration: none;
+    color: #3498db;
+    text-decoration: underline;
+}
+
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#fecha{
+    text-align: left;
+    font-size: small;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.inputEscrito{
+    margin: 1.5rem 0; /*afecta a los lados y el margin del centro*/
+    margin-top: 1%;
+}
+.inputEscrito input {
+    border-color: 1rem solid black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+}
